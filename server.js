@@ -43,7 +43,7 @@ app.get("/scrape", function (req, res) {
     console.log($);
 
     // Now, we grab every h2 within an article tag, and do the following:
-    $(".balancedHeadline").each(function (i, element) {
+    $(".article").each(function (i, element) {
       // Save an empty result object
       var result = {};
 
